@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+// import Title from './Title';
 import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
 import '../App.css';
@@ -11,7 +11,7 @@ class SolarSystem extends React.Component {
       'center'];
     return (
       <div data-testid="solar-system" className="container-planets">
-        <Title headline="Planetas" />
+        {/* <Title headline="Planetas" /> */}
         <div className="circle-container">
           { planets.map((planet, id) => (
             <PlanetCard
